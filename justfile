@@ -2,7 +2,7 @@
 
 # Run the game
 run:
-    poetry run python src/game/main.py
+    poetry run python resist/src/game/main.py
 
 # Start a poetry shell
 shell:
@@ -18,7 +18,7 @@ build:
 
 # lint code using Black
 lint:
-    poetry run black src/
+    poetry run black resist/
 
 # Run tests (if/when added)
 test:
