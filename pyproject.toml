@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "resist-game"
+version = "0.1.0"
+description = ""
+authors = ["Kyzr Snapko <kyzrsnapko@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.13"
+panda3d = "^1.10.15"
+pytest = "^8.3.5"
+black = "^25.1.0"
+mypy = "^1.15.0"
+just = "^0.8.162"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
