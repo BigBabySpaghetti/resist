@@ -12,6 +12,8 @@ just shell     # Enter poetry shell
 
 just install   # Install all deps
 
+just build   # build the proj
+
 just lint    # Auto-format code
 
 just test      # Run your tests

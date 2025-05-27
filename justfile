@@ -12,6 +12,10 @@ shell:
 install:
     poetry install
 
+# Build the project
+build:
+    poetry build
+
 # lint code using Black
 lint:
     poetry run black src/
