@@ -12,8 +12,8 @@ shell:
 install:
     poetry install
 
-# Format code using Black
-format:
+# lint code using Black
+lint:
     poetry run black src/
 
 # Run tests (if/when added)
